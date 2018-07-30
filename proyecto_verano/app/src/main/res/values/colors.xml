@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Theme Colors
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPink">#FF21FF</color>
+    <color name="colorBlue">#304ffe</color>
+    <color name="colorGrey">#70748E</color>
+
+    // Default colors
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#1f1d24</color>
+
+    // Background colors
+    <color name="fondo_prueba1">#5D8EE8</color>
+    <color name="fondo_prueba2">#7179E3</color>
+
+
+
+    // Different fragment colors
+    <color name="c1">#AC3E3E</color>
+    <color name="c2">#ac3eab</color>
+    <color name="c3">#3F3EAB</color>
+    <color name="c4">#3EAB8D</color>
+    <color name="c5">#86AB3E</color>
+
+</resources>

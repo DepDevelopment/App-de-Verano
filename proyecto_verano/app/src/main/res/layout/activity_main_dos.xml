@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/fondo_prueba2">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="168dp"
+
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/button_pantalla_principal_dos_shape"
+        android:text="@string/go" />
+
+    <ImageButton
+        android:id="@+id/btnAddPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:id="@+id/llJugadores"
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/table_layout_shape"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:stretchColumns="1"></TableLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtAnadirJugadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="53dp"
+        android:text="Añade jugador  "
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnAddPlayer"
+        android:layout_marginEnd="25dp"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <Button
+        android:id="@+id/btnFill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtTitulo"
+        android:layout_alignTop="@+id/btnStart"
+        android:layout_marginEnd="-12dp"
+        android:text="FillMe" />
+
+</RelativeLayout>

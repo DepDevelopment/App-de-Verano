@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flores.proyecto_verano">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_hot"
+        android:label="@string/app_name"
+        android:logo="@mipmap/ic_hot_round"
+        android:supportsRtl="true"
+        android:showAsAction="ifRoom"
+        android:theme="@style/HotterThanHot">
+
+        <activity android:name=".Initial_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.HotterThanHot.Light.NoActionBar"/>
+        <activity android:name=".MainActivityDos"
+            android:theme="@style/Theme.HotterThanHot.Light.NoActionBar"/>
+        <activity android:name=".Fragment_Container"
+            android:theme="@style/Theme.HotterThanHot.Light.NoActionBar"/>
+
+    </application>
+
+</manifest>
